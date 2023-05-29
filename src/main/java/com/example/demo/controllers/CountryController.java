@@ -34,7 +34,7 @@ public class CountryController {
 	@Autowired
 	CountryService countryService;
 	
-	@GetMapping("/getcountries")
+	@GetMapping("/")
 	public ResponseEntity<List<Country>> getCountryies(){
 		
 		
